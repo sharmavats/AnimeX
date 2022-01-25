@@ -24,9 +24,11 @@
                <ImageButton
                    android:id="@+id/imageButton14"
                    android:layout_width="150dp"
+                   android:adjustViewBounds="true"
+                   android:scaleType="centerInside"
                    android:layout_height="wrap_content"
                    android:background="@drawable/custombutton1"
-                   tools:srcCompat="@tools:sample/avatars" />
+                   android:src="@drawable/aot" />
 
                <TextView
                    android:id="@+id/editText1"
@@ -58,8 +60,10 @@
                     android:id="@+id/imageButton13"
                     android:layout_width="150dp"
                     android:background="@drawable/custombutton1"
-                    android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:layout_height="150dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/onepiece" />
 
                 <TextView
                     android:id="@+id/editText2"
@@ -92,7 +96,9 @@
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/custombutton1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/naruto"  />
 
                 <TextView
                     android:id="@+id/textview3"
@@ -122,8 +128,10 @@
         android:id="@+id/imageButton11"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
         android:background="@drawable/custombutton1"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@drawable/deathnote" />
          <TextView
              android:id="@+id/textview4"
              android:layout_width="264dp"
@@ -151,8 +159,10 @@
                     android:id="@+id/imageButton"
                     android:layout_width="150dp"
                     android:background="@drawable/custombutton1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/tokyo" />
                 <TextView
                     android:id="@+id/Textview5"
                     android:layout_width="264dp"
@@ -181,9 +191,11 @@
                     android:id="@+id/imageButton9"
                     android:layout_width="150dp"
                     android:layout_marginLeft="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
                     android:background="@drawable/custombutton1"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                   android:src="@drawable/dragon" />
                 <TextView
                     android:id="@+id/Textview6"
                     android:layout_width="264dp"
@@ -212,7 +224,9 @@
                      android:layout_width="150dp"
                      android:background="@drawable/custombutton1"
                      android:layout_height="wrap_content"
-                     tools:srcCompat="@tools:sample/avatars" />
+                     android:adjustViewBounds="true"
+                     android:scaleType="centerInside"
+                     android:src="@drawable/boruto" />
                  <TextView
                      android:id="@+id/Textview7"
                      android:layout_width="264dp"
@@ -240,8 +254,10 @@
                     android:id="@+id/imageButton7"
                     android:layout_width="150dp"
                     android:background="@drawable/custombutton1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/fullmetal" />
                 <TextView
                     android:id="@+id/Textview8"
                     android:layout_width="264dp"

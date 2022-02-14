@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.animexx">
 
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AnimeXX">
+        <activity android:name=".FullimageActivity"></activity>
+        <activity android:name=".fullmetal" />
+        <activity android:name=".boruto" />
+        <activity android:name=".dragonball" />
+        <activity android:name=".tokyoghoul" />
+        <activity android:name=".deathnote" />
+        <activity android:name=".naruto" />
+        <activity android:name=".onepiece" />
+        <activity android:name=".attackontitan" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

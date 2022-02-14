@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "666747707538",
+    "project_id": "animexx-b6060",
+    "storage_bucket": "animexx-b6060.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666747707538:android:391537746b378903e1864b",
+        "android_client_info": {
+          "package_name": "com.example.animexx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666747707538-v69dl13v1i7svhf62ajnem86d4jkr50d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs5-bhLO4rYCCOuI-GBRhiTaojCoCpTtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666747707538-v69dl13v1i7svhf62ajnem86d4jkr50d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

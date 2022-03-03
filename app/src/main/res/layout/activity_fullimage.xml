@@ -4,29 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".FullimageActivity">
+
 
     <ImageView
         android:id="@+id/fullimage"
         android:layout_width="0dp"
-        android:scaleType="centerCrop"
         android:layout_height="0dp"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <com.google.android.material.button.MaterialButton
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:id="@+id/apply"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:text="APPLY"
-        android:textSize="40sp"
-        android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/open_bottom_sheet"
+        android:layout_marginBottom="32dp"
+        android:text="Options"
+        android:textAlignment="center"
+        android:paddingTop="8dp"
+        android:background="@drawable/optionbutton"
+        android:textSize="20sp"
+        android:textColor="#1dd3b8"
+        app:layout_constraintBottom_toBottomOf="@+id/fullimage"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

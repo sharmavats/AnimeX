@@ -23,14 +23,18 @@ public class FullimageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fullimage);
         FullImage = findViewById(R.id.fullimage);
-        Apply = findViewById(R.id.apply);
+        Apply = findViewById(R.id.open_bottom_sheet);
 
         Glide.with(this).load(getIntent().getStringExtra("image")).into(FullImage);
 
         Apply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setBackground();
+
+                BottomSheetDialog bottomSheet = new BottomSheetDialog();
+                bottomSheet.show(getSupportFragmentManager(),
+                        "ModalBottomSheet");
+
             }
         });
     }

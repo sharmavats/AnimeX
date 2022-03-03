@@ -42,5 +42,6 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.13.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
     implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.android.material:material:1.2.0-alpha02'//for bottom sheet
 }
 apply plugin: 'com.google.gms.google-services'
